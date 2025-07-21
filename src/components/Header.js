@@ -1,13 +1,15 @@
-import react from "react";
+import '../styles/components/layout/Headers.css';
 const Header = (props) => {
   return (
-    <header className="holder">
+    <header>
+    <div className="holder">
       <img
         src="/images/logo-basquetball.png"
         width="100px"
         alt="Logo Cordoba Basquet"
       />
       <h1> Cordoba Basquet</h1>
+      </div>
     </header>
   );
 };

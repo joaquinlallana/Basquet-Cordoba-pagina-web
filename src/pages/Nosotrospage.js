@@ -1,5 +1,3 @@
-import react from "react";
-
 const NosotrosPage = (props) => {
   return (
     <main className="holder">
