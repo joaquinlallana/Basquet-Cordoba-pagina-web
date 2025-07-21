@@ -13,21 +13,23 @@
 
 .datos ul li {
   font-size: 13px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .formulario p {
-  display: flex;
+  display: flex;;
 }
 
 .formulario p label {
   min-width: 80px;
   display: flex;
   align-items: center;
+  margin-right: 10px;
 }
 
-.formulario p input,
+.formulario p input ,
 .formulario p textarea {
-  width: 100%;
+  width: 50%;
   background: #ddd;
   border-radius: 5px;
   border: 1px solid #999;

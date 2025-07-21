@@ -1,3 +1,4 @@
+import '../styles/components/pages/Contactopage.css';
 const ContactoPage = (props) => {
   return (
     <main className="holder">
@@ -5,16 +6,16 @@ const ContactoPage = (props) => {
         <h2>Contacto Rapido</h2>
         <form action="" method="" className="formulario">
           <p>
-            <lablel for="nombre">Nombre</lablel>
-            <imput type="text" name="" />
+            <label for="nombre">Nombre</label>
+            <input type="text" name="" />
           </p>
           <p>
             <label for="email">Email</label>
-            <imput type="text" name="" />
+            <input type="text" name="" />
           </p>
           <p>
             <label for="telefono">Telefono</label>
-            <imput type="text" name="" />
+            <input type="text" name="" />
           </p>
           <p>
             <label for="mensaje">Mensaje</label>
@@ -22,7 +23,7 @@ const ContactoPage = (props) => {
             <textarea name=""></textarea>
           </p>
           <p class="acciones">
-            <imput type="submit" value="Enviar" />
+            <input type="submit" value="Enviar" />
           </p>
         </form>
       </div>

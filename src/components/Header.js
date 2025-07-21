@@ -2,7 +2,7 @@ import '../styles/components/layout/Headers.css';
 const Header = (props) => {
   return (
     <header>
-    <div className="holder">
+    <div className="header-holder">
       <img
         src="/images/logo-basquetball.png"
         width="100px"

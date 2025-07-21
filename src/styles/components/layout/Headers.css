@@ -1,15 +1,26 @@
-header {
-    background-color: #2e64a1;
+.header-holder {
+    background-color: #ff9100;
     padding: 16px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
 }
 
-header h1 {
+.header-holder h1 {
     color: white;
     font-size: 40px;
     font-weight: 100;
     font-style: italic;
-    display: inline-block;
-    position: relative;
-    bottom: 35px;
-    margin-left: 10px;
+    margin: 0;
+    position: static;
+    display: flex;
+    align-items: center;
 }
+
+.header-holder img {
+    display: block;
+    height: 60px;
+    width: auto;
+}
+
