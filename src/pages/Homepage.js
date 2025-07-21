@@ -3,10 +3,10 @@ const HomePage = (props) => {
   return (
     <main className="holder">
       <div className="home-img">
-        <img src="/images/home/imagen03.jpg" alt="Imagen 03" width="30%" />
+        <img src="/images/home/Foto-bienvenida.jpg" alt="Imagen de bienvenida" />
       </div>
       <div className="columnas">
-        <div className="Bienvenidos">
+        <div className="bienvenidos">
           <h2>Bienvenidos</h2>
           <p>
             ¡Bienvenidos a tu nuevo espacio dedicado al básquet local en

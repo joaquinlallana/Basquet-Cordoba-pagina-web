@@ -1,9 +1,13 @@
 .bienvenidos {
-  width: 75%;
+  width: 100%;
   padding-right: 10px;
   box-sizing: border-box;
+  text-align: justify;
+  font-size: 20px;
+  color: #333;
+  line-height: 1.4;
 }
-
+/*
 .testimonios {
   width: 25%;
 }
@@ -38,10 +42,21 @@
   display: block;
   margin: 12px 0;
 }
-
+*/
 .home-img {
-  width: 100%;
-  height: auto;
   display: flex;
   justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 24px 0;
+}
+
+.home-img img {
+  max-width: 35vw;
+  max-height: 45vh;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.15);
+  border-radius: 12px;
 }
